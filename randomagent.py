@@ -1,5 +1,5 @@
 '''
-For LINES of ACTION.
+For INTERNATIONAL DRAUGHTS.
 '''
 import numpy as np
 

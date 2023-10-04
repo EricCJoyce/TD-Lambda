@@ -23,8 +23,8 @@ This script call:
 - Will abandon an episode if a game state is repeated five times.
 - Uses a fixed learning rate of 0.0001.
 - Uses a discount (`g`) of 0.9.
-- Starts epsilon (`e`) at 0.8, decays it per episode by a rate of 0.00005, and clamps a minimum of 0.4.
-- Starts lambda (`l`) at 0.8, decays it per episode by a rate of 0.00005, and clamps a minimum of 0.4.
+- Starts epsilon (`e`) at 0.8, decays it per episode by a rate of 0.00005, and clamps to a minimum of 0.4.
+- Starts lambda (`l`) at 0.8, decays it per episode by a rate of 0.00005, and clamps to a minimum of 0.4.
 - Runs in verbose mode, showing the play by play.
 
 ### Convert to Neuron format

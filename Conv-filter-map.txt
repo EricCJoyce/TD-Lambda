@@ -1,5 +1,3 @@
-#  My thinking now (31jul23) is that, unless I *stack* convolutional layers, why wouldn't they all learn the same filter?
-#  Do this, force each shape to come up with something significant, and slim down the network!
 #  Barrage  <t>  Barrage-Pattern(w h)  <t>  Number of filters
 
 Tall	1 2	1

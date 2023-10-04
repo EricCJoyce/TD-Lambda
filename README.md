@@ -26,3 +26,6 @@ This script call:
 - Starts epsilon (`e`) at 0.8, decays it per episode by a rate of 0.00005, and clamps a minimum of 0.4.
 - Starts lambda (`l`) at 0.8, decays it per episode by a rate of 0.00005, and clamps a minimum of 0.4.
 - Runs in verbose mode, showing the play by play.
+
+### Convert to Neuron format
+Updated models are saved in `/models` as protobufs. Run `convert_to_nn.py` to convert a particular version to a `.nn` format. This script also runs checks to make sure that the source `.pb` and destination `.nn` behave the same.
